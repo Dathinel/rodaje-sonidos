@@ -1,0 +1,366 @@
+{
+  "formatVersion": 1,
+  "id": "rodaje-sonidos",
+  "version": "1.0.0",
+  "kind": "content",
+  "name": "Sonidos",
+  "description": "50 efectos de sonido sintetizados por un script propio: golpes, swooshes, clics, transiciones, notificaciones, risers, impactos y ambientes en bucle. WAV de 48 kHz, dominio pÃºblico (CC0).",
+  "author": "Dathinel",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/Dathinel/rodaje-sonidos",
+  "apps": [
+    "rodaje"
+  ],
+  "items": [
+    {
+      "id": "golpe-bombo",
+      "kind": "sound",
+      "name": "Bombo",
+      "file": "sonidos/golpes/golpe-bombo.wav",
+      "description": "Golpe Â· 0,5 s"
+    },
+    {
+      "id": "golpe-seco",
+      "kind": "sound",
+      "name": "Golpe seco",
+      "file": "sonidos/golpes/golpe-seco.wav",
+      "description": "Golpe Â· 0,25 s"
+    },
+    {
+      "id": "golpe-grave",
+      "kind": "sound",
+      "name": "Golpe grave",
+      "file": "sonidos/golpes/golpe-grave.wav",
+      "description": "Golpe Â· 1 s"
+    },
+    {
+      "id": "golpe-madera",
+      "kind": "sound",
+      "name": "Golpe de madera",
+      "file": "sonidos/golpes/golpe-madera.wav",
+      "description": "Golpe Â· 0,3 s"
+    },
+    {
+      "id": "palmada",
+      "kind": "sound",
+      "name": "Palmada",
+      "file": "sonidos/golpes/palmada.wav",
+      "description": "Golpe Â· 0,4 s"
+    },
+    {
+      "id": "golpe-caja",
+      "kind": "sound",
+      "name": "Caja",
+      "file": "sonidos/golpes/golpe-caja.wav",
+      "description": "Golpe Â· 0,4 s"
+    },
+    {
+      "id": "swoosh-corto",
+      "kind": "sound",
+      "name": "Swoosh corto",
+      "file": "sonidos/swooshes/swoosh-corto.wav",
+      "description": "Swoosh Â· 0,4 s"
+    },
+    {
+      "id": "swoosh-medio",
+      "kind": "sound",
+      "name": "Swoosh medio",
+      "file": "sonidos/swooshes/swoosh-medio.wav",
+      "description": "Swoosh Â· 0,7 s"
+    },
+    {
+      "id": "swoosh-largo",
+      "kind": "sound",
+      "name": "Swoosh largo",
+      "file": "sonidos/swooshes/swoosh-largo.wav",
+      "description": "Swoosh Â· 1,2 s"
+    },
+    {
+      "id": "swoosh-izquierda-derecha",
+      "kind": "sound",
+      "name": "Swoosh de izquierda a derecha",
+      "file": "sonidos/swooshes/swoosh-izquierda-derecha.wav",
+      "description": "Swoosh Â· 0,8 s"
+    },
+    {
+      "id": "swoosh-derecha-izquierda",
+      "kind": "sound",
+      "name": "Swoosh de derecha a izquierda",
+      "file": "sonidos/swooshes/swoosh-derecha-izquierda.wav",
+      "description": "Swoosh Â· 0,8 s"
+    },
+    {
+      "id": "whoosh-grave",
+      "kind": "sound",
+      "name": "Whoosh grave",
+      "file": "sonidos/swooshes/whoosh-grave.wav",
+      "description": "Swoosh Â· 1 s"
+    },
+    {
+      "id": "whoosh-aire",
+      "kind": "sound",
+      "name": "Whoosh de aire",
+      "file": "sonidos/swooshes/whoosh-aire.wav",
+      "description": "Swoosh Â· 1,5 s"
+    },
+    {
+      "id": "swoosh-doble",
+      "kind": "sound",
+      "name": "Swoosh doble",
+      "file": "sonidos/swooshes/swoosh-doble.wav",
+      "description": "Swoosh Â· 0,9 s"
+    },
+    {
+      "id": "clic",
+      "kind": "sound",
+      "name": "Clic",
+      "file": "sonidos/clics/clic.wav",
+      "description": "Clic de interfaz Â· 0,06 s"
+    },
+    {
+      "id": "tic",
+      "kind": "sound",
+      "name": "Tic",
+      "file": "sonidos/clics/tic.wav",
+      "description": "Clic de interfaz Â· 0,05 s"
+    },
+    {
+      "id": "pop",
+      "kind": "sound",
+      "name": "Pop",
+      "file": "sonidos/clics/pop.wav",
+      "description": "Clic de interfaz Â· 0,12 s"
+    },
+    {
+      "id": "interruptor-encender",
+      "kind": "sound",
+      "name": "Interruptor: encender",
+      "file": "sonidos/clics/interruptor-encender.wav",
+      "description": "Clic de interfaz Â· 0,15 s"
+    },
+    {
+      "id": "interruptor-apagar",
+      "kind": "sound",
+      "name": "Interruptor: apagar",
+      "file": "sonidos/clics/interruptor-apagar.wav",
+      "description": "Clic de interfaz Â· 0,15 s"
+    },
+    {
+      "id": "clic-suave",
+      "kind": "sound",
+      "name": "Clic suave",
+      "file": "sonidos/clics/clic-suave.wav",
+      "description": "Clic de interfaz Â· 0,08 s"
+    },
+    {
+      "id": "tecla",
+      "kind": "sound",
+      "name": "Tecla",
+      "file": "sonidos/clics/tecla.wav",
+      "description": "Clic de interfaz Â· 0,07 s"
+    },
+    {
+      "id": "burbuja",
+      "kind": "sound",
+      "name": "Burbuja",
+      "file": "sonidos/clics/burbuja.wav",
+      "description": "Clic de interfaz Â· 0,15 s"
+    },
+    {
+      "id": "barrido-ascendente",
+      "kind": "sound",
+      "name": "Barrido ascendente",
+      "file": "sonidos/transiciones/barrido-ascendente.wav",
+      "description": "TransiciÃ³n Â· 1,5 s"
+    },
+    {
+      "id": "barrido-descendente",
+      "kind": "sound",
+      "name": "Barrido descendente",
+      "file": "sonidos/transiciones/barrido-descendente.wav",
+      "description": "TransiciÃ³n Â· 1,5 s"
+    },
+    {
+      "id": "reverso",
+      "kind": "sound",
+      "name": "Reverso",
+      "file": "sonidos/transiciones/reverso.wav",
+      "description": "TransiciÃ³n Â· 2 s"
+    },
+    {
+      "id": "glitch",
+      "kind": "sound",
+      "name": "Glitch",
+      "file": "sonidos/transiciones/glitch.wav",
+      "description": "TransiciÃ³n Â· 0,6 s"
+    },
+    {
+      "id": "cremallera",
+      "kind": "sound",
+      "name": "Cremallera",
+      "file": "sonidos/transiciones/cremallera.wav",
+      "description": "TransiciÃ³n Â· 0,5 s"
+    },
+    {
+      "id": "destello",
+      "kind": "sound",
+      "name": "Destello",
+      "file": "sonidos/transiciones/destello.wav",
+      "description": "TransiciÃ³n Â· 1,2 s"
+    },
+    {
+      "id": "campanita",
+      "kind": "sound",
+      "name": "Campanita",
+      "file": "sonidos/notificaciones/campanita.wav",
+      "description": "NotificaciÃ³n Â· 1,2 s"
+    },
+    {
+      "id": "ding-doble",
+      "kind": "sound",
+      "name": "Ding doble",
+      "file": "sonidos/notificaciones/ding-doble.wav",
+      "description": "NotificaciÃ³n Â· 1 s"
+    },
+    {
+      "id": "alerta-suave",
+      "kind": "sound",
+      "name": "Alerta suave",
+      "file": "sonidos/notificaciones/alerta-suave.wav",
+      "description": "NotificaciÃ³n Â· 1 s"
+    },
+    {
+      "id": "exito",
+      "kind": "sound",
+      "name": "Ã‰xito",
+      "file": "sonidos/notificaciones/exito.wav",
+      "description": "NotificaciÃ³n Â· 0,9 s"
+    },
+    {
+      "id": "error",
+      "kind": "sound",
+      "name": "Error",
+      "file": "sonidos/notificaciones/error.wav",
+      "description": "NotificaciÃ³n Â· 0,7 s"
+    },
+    {
+      "id": "mensaje",
+      "kind": "sound",
+      "name": "Mensaje",
+      "file": "sonidos/notificaciones/mensaje.wav",
+      "description": "NotificaciÃ³n Â· 0,5 s"
+    },
+    {
+      "id": "recordatorio",
+      "kind": "sound",
+      "name": "Recordatorio",
+      "file": "sonidos/notificaciones/recordatorio.wav",
+      "description": "NotificaciÃ³n Â· 1,5 s"
+    },
+    {
+      "id": "riser-3s",
+      "kind": "sound",
+      "name": "Riser de 3 s",
+      "file": "sonidos/risers/riser-3s.wav",
+      "description": "Riser Â· 3 s"
+    },
+    {
+      "id": "riser-5s",
+      "kind": "sound",
+      "name": "Riser de 5 s",
+      "file": "sonidos/risers/riser-5s.wav",
+      "description": "Riser Â· 5 s"
+    },
+    {
+      "id": "riser-8s",
+      "kind": "sound",
+      "name": "Riser de 8 s",
+      "file": "sonidos/risers/riser-8s.wav",
+      "description": "Riser Â· 8 s"
+    },
+    {
+      "id": "riser-tonal-5s",
+      "kind": "sound",
+      "name": "Riser tonal de 5 s",
+      "file": "sonidos/risers/riser-tonal-5s.wav",
+      "description": "Riser Â· 5 s"
+    },
+    {
+      "id": "impacto-cine",
+      "kind": "sound",
+      "name": "Impacto cinematogrÃ¡fico",
+      "file": "sonidos/impactos/impacto-cine.wav",
+      "description": "Impacto Â· 3 s"
+    },
+    {
+      "id": "boom",
+      "kind": "sound",
+      "name": "Boom",
+      "file": "sonidos/impactos/boom.wav",
+      "description": "Impacto Â· 2,5 s"
+    },
+    {
+      "id": "golpe-metalico",
+      "kind": "sound",
+      "name": "Golpe metÃ¡lico",
+      "file": "sonidos/impactos/golpe-metalico.wav",
+      "description": "Impacto Â· 2 s"
+    },
+    {
+      "id": "impacto-sub",
+      "kind": "sound",
+      "name": "Impacto sub",
+      "file": "sonidos/impactos/impacto-sub.wav",
+      "description": "Impacto Â· 2 s"
+    },
+    {
+      "id": "impacto-seco",
+      "kind": "sound",
+      "name": "Impacto seco",
+      "file": "sonidos/impactos/impacto-seco.wav",
+      "description": "Impacto Â· 1 s"
+    },
+    {
+      "id": "trueno-lejano",
+      "kind": "sound",
+      "name": "Trueno lejano",
+      "file": "sonidos/impactos/trueno-lejano.wav",
+      "description": "Impacto Â· 4 s"
+    },
+    {
+      "id": "lluvia",
+      "kind": "sound",
+      "name": "Lluvia",
+      "file": "sonidos/ambientes/lluvia.wav",
+      "description": "Ambiente en bucle Â· 10 s"
+    },
+    {
+      "id": "viento",
+      "kind": "sound",
+      "name": "Viento",
+      "file": "sonidos/ambientes/viento.wav",
+      "description": "Ambiente en bucle Â· 10 s"
+    },
+    {
+      "id": "sala",
+      "kind": "sound",
+      "name": "Tono de sala",
+      "file": "sonidos/ambientes/sala.wav",
+      "description": "Ambiente en bucle Â· 10 s"
+    },
+    {
+      "id": "zumbido-electrico",
+      "kind": "sound",
+      "name": "Zumbido elÃ©ctrico",
+      "file": "sonidos/ambientes/zumbido-electrico.wav",
+      "description": "Ambiente en bucle Â· 10 s"
+    },
+    {
+      "id": "ventilador",
+      "kind": "sound",
+      "name": "Ventilador",
+      "file": "sonidos/ambientes/ventilador.wav",
+      "description": "Ambiente en bucle Â· 10 s"
+    }
+  ]
+}
