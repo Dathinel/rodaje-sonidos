@@ -11,6 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licencia-CC0_1.0-E8833A?style=flat-square&labelColor=1D1D1D" alt="Licencia CC0 1.0"></a>
   <a href="https://github.com/Dathinel/rodaje-sonidos/releases/latest"><img src="https://img.shields.io/github/v/release/Dathinel/rodaje-sonidos?style=flat-square&labelColor=1D1D1D&color=E8833A&label=versi%C3%B3n" alt="Última versión"></a>
+  <img src="https://img.shields.io/badge/contenido-50_sonidos-E8833A?style=flat-square&labelColor=1D1D1D" alt="Contenido: 50 sonidos">
   <img src="https://img.shields.io/badge/formato-.paquete-E8833A?style=flat-square&labelColor=1D1D1D" alt="Formato .paquete">
   <a href="https://github.com/Dathinel/rodaje"><img src="https://img.shields.io/badge/para-Rodaje-E8833A?style=flat-square&labelColor=1D1D1D" alt="Para Rodaje"></a>
 </p>
@@ -32,7 +33,7 @@ Todos en PCM de 16 bits a 48 kHz, con pico de −2 a −20 dBFS según el tipo, 
 
 ## Instalar en Rodaje
 
-En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-sonidos-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-sonidos/releases) y, en Rodaje, usa «Instalar desde archivo…» en Complementos o suéltalo sobre la biblioteca. Los sonidos aparecen en la biblioteca, en Audio: se escuchan antes de usarlos y se arrastran a la línea de tiempo.
+En Rodaje, Complementos → Instalar lo baja, comprueba su firma y lo instala. A mano: descarga `rodaje-sonidos-<versión>.paquete` de las [releases](https://github.com/Dathinel/rodaje-sonidos/releases) y, en Rodaje, usa «Instalar desde archivo…» en Complementos o suéltalo sobre la biblioteca. Los sonidos aparecen en la biblioteca, en Audio: se escuchan antes de usarlos y se arrastran a la línea de tiempo. Más detalles en la [guía de complementos](https://github.com/Dathinel/rodaje/blob/main/docs/guia/complementos.md).
 
 ## Construir y probar
 
