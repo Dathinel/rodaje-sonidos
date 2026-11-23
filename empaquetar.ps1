@@ -43,8 +43,10 @@ try {
     }
 
     foreach ($elemento in $datos.items) {
-        if ($elemento.file -and -not (Test-Path -LiteralPath (Join-Path $temporal $elemento.file))) {
-            throw "Falta $($elemento.file), que nombra el elemento $($elemento.id)."
+        foreach ($ruta in (@($elemento.file) + @($elemento.files))) {
+            if ($ruta -and -not (Test-Path -LiteralPath (Join-Path $temporal $ruta) -PathType Leaf)) {
+                throw "Falta $ruta, que nombra el elemento $($elemento.id)."
+            }
         }
     }
 
